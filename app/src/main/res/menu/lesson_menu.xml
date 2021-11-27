@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".lesson.LessonActivity">
+    <!--android:icon="@drawable/ic_menu_mark"-->
+    <item
+        android:id="@+id/lesson_menu_end_lesson"
+        android:title="@string/lesson_activity_menu_text_end_lesson"
+        app:showAsAction="withText">
+    </item>
+    <item
+        android:id="@+id/lesson_menu_edit_seating"
+        android:title="@string/lesson_activity_menu_text_learners"
+        app:showAsAction="withText">
+    </item>
+    <item
+        android:id="@+id/lesson_menu_edit_tables"
+        android:title="@string/lesson_activity_menu_text_desks"
+        app:showAsAction="withText">
+    </item>
+    <item
+    android:id="@+id/lesson_menu_help"
+    android:title="@string/lesson_activity_menu_text_help"
+    app:showAsAction="withText|ifRoom">
+</item>
+</menu>

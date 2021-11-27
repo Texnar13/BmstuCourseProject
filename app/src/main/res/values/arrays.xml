@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- локализация -->
+    <!-- названия языков -->
+    <string-array name="locale_names">
+        <item>Auto-detection</item>
+        <item>Русский</item>
+        <item>English</item>
+    </string-array>
+    <!-- коды -->
+    <string-array name="locale_code">
+        <item>defaultLocale</item>        
+        <item>ru</item>        
+        <item>en</item>
+    </string-array>
+
+
+    <string-array name="months_names">
+        <item>JANUARY</item>        
+        <item>FEBRUARY</item>
+        <item>MARCH</item>        
+        <item>APRIL</item>       
+        <item>MAY</item>        
+        <item>JUNE</item>        
+        <item>JULY</item>        
+        <item>AUGUST</item>       
+        <item>SEPTEMBER</item>        
+        <item>OCTOBER</item>        
+        <item>NOVEMBER</item>        
+        <item>DECEMBER</item>
+    </string-array>
+
+    <string-array name="months_names_low_case">
+        <item>january</item>        
+        <item>february</item>
+        <item>march</item>        
+        <item>april</item>       
+        <item>may</item>        
+        <item>june</item>        
+        <item>july</item>        
+        <item>august</item>       
+        <item>september</item>        
+        <item>october</item>        
+        <item>november</item>        
+        <item>december</item>
+    </string-array>
+
+    <!-- активность календаря на день -->
+    <!-- шапка таблицы -->
+    <string-array name="schedule_day_activity_table_titles_array">
+        <item>№</item>
+        <item>Time</item>
+        <item>Subject</item>
+        <item>Class</item>
+        <item>Cab</item>
+        <item>Additional</item>
+    </string-array>
+
+    <!-- активность календаря на месяц-->
+    <!-- шапка таблицы -->
+    <string-array name="schedule_month_activity_week_days_short_array">
+        <item>mon</item>
+        <item>tue</item>
+        <item>wed</item>
+        <item>thu</item>
+        <item>fri</item>
+        <item>sat</item>
+        <item>sun</item>
+    </string-array>
+
+</resources>
